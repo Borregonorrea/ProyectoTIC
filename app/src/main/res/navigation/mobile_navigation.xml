@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/iniciar_sesion">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -55,4 +55,13 @@
         android:name="com.example.proyectotic.Musica"
         android:label="fragment_musica"
         tools:layout="@layout/fragment_musica" />
+    <fragment
+        android:id="@+id/iniciar_sesion"
+        android:name="com.example.proyectotic.iniciar_sesion"
+        android:label="fragment_iniciar_sesion"
+        tools:layout="@layout/fragment_iniciar_sesion" >
+        <action
+            android:id="@+id/action_iniciar_sesion_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
 </navigation>
