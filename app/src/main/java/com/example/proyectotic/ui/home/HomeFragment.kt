@@ -19,10 +19,15 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val root = inflater.inflate(R.layout.fragment_home, container, false)
-
         val btn_navegar = root.findViewById<Button>(R.id.btn_navegar)
+        val btn_aseo = root.findViewById<Button>(R.id.btn_aseo)
+        val btn_musica = root.findViewById<Button>(R.id.btn_musica)
+        val btn_cocina = root.findViewById<Button>(R.id.btn_cocinar)
 
         btn_navegar.setOnClickListener { findNavController().navigate(R.id.action_navigation_home_to_entretenimiento)}
+        btn_aseo.setOnClickListener { findNavController().navigate(R.id.action_navigation_home_to_aseo)}
+        btn_musica.setOnClickListener { findNavController().navigate(R.id.action_navigation_home_to_musica)}
+        btn_cocina.setOnClickListener { findNavController().navigate(R.id.action_navigation_home_to_cocinar)}
 
         return root
 

@@ -13,6 +13,15 @@
         <action
             android:id="@+id/action_navigation_home_to_entretenimiento"
             app:destination="@id/entretenimiento" />
+        <action
+            android:id="@+id/action_navigation_home_to_aseo"
+            app:destination="@id/aseo" />
+        <action
+            android:id="@+id/action_navigation_home_to_cocinar"
+            app:destination="@id/cocinar" />
+        <action
+            android:id="@+id/action_navigation_home_to_musica"
+            app:destination="@id/musica" />
     </fragment>
 
     <fragment
@@ -31,4 +40,19 @@
         android:name="com.example.proyectotic.Entretenimiento"
         android:label="fragment_entretenimiento"
         tools:layout="@layout/fragment_entretenimiento" />
+    <fragment
+        android:id="@+id/aseo"
+        android:name="com.example.proyectotic.Aseo"
+        android:label="fragment_aseo"
+        tools:layout="@layout/fragment_aseo" />
+    <fragment
+        android:id="@+id/cocinar"
+        android:name="com.example.proyectotic.Cocinar"
+        android:label="fragment_cocinar"
+        tools:layout="@layout/fragment_cocinar" />
+    <fragment
+        android:id="@+id/musica"
+        android:name="com.example.proyectotic.Musica"
+        android:label="fragment_musica"
+        tools:layout="@layout/fragment_musica" />
 </navigation>
