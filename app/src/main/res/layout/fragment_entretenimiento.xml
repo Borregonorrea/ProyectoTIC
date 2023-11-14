@@ -68,6 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/spinner_juegos"
             android:layout_width="291dp"
             android:layout_height="52dp"
             android:layout_marginStart="28dp"
@@ -75,6 +76,7 @@
             android:layout_marginEnd="28dp"
             android:hint="@string/games"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:textColorHint="@color/Azul_letra"
             app:boxStrokeColor="@color/Azul_boton_1"
             app:boxCornerRadiusBottomStart="60dp"
             app:boxCornerRadiusBottomEnd="60dp"
@@ -83,6 +85,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
+
             <AutoCompleteTextView
                 android:id="@+id/games_txt"
                 android:layout_width="match_parent"
@@ -100,6 +103,7 @@
             android:layout_marginTop="92dp"
             android:layout_marginEnd="28dp"
             android:hint="Proyeccion de Series"
+            android:textColorHint="@color/Azul_letra"
             app:boxStrokeColor="@color/Azul_boton_1"
             app:boxCornerRadiusBottomStart="60dp"
             app:boxCornerRadiusBottomEnd="60dp"
@@ -125,6 +129,7 @@
             android:layout_marginTop="170dp"
             android:layout_marginEnd="28dp"
             android:hint="Paginas de Streaming"
+            android:textColorHint="@color/Azul_letra"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             app:boxStrokeColor="@color/Azul_boton_1"
             app:boxCornerRadiusBottomStart="60dp"
@@ -150,6 +155,7 @@
             android:layout_marginTop="250dp"
             android:layout_marginEnd="28dp"
             android:hint="Lectura en linea"
+            android:textColorHint="@color/Azul_letra"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             app:boxStrokeColor="@color/Azul_boton_1"
             app:boxCornerRadiusBottomStart="60dp"
@@ -175,6 +181,7 @@
             android:layout_marginTop="330dp"
             android:layout_marginEnd="28dp"
             android:hint="Edicion de video"
+            android:textColorHint="@color/Azul_letra"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             app:boxStrokeColor="@color/Azul_boton_1"
             app:boxCornerRadiusBottomStart="60dp"
