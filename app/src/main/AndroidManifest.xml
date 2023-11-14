@@ -12,11 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoTIC"
         tools:targetApi="31" >
-        <activity
-            android:name=".Entretenimiento_act"
-            android:exported="false"
-            android:label="@string/title_activity_entretenimiento"
-            android:theme="@style/Theme.ProyectoTIC" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
