@@ -7,4 +7,12 @@
     <string name="Entretenimiento">Esta es la pagina de entretenimiento</string>
     <string name="Navegar">Navegar</string>
     <string name="Bienvenido">Bienvenido de nuevo</string>
+    <string name="Login">Iniciar sesion</string>
+    <string name="Recordarme">Recordarme</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Logo">Energy</string>
+    <string name="Logo_2">Balancer</string>
+    <string name="Forgot_pw">¿Olvidaste tu Contraseña?</string>
+    <string name="Registro">Registrarse</string>
 </resources>

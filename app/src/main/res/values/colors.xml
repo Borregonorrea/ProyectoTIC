@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name ="Azul">#97ECFF</color>
+    <color name ="Azul_claro">#66FFFF</color>
+    <color name ="Gris">#C7C7C7</color>
+    <color name ="Azul_boton_1">#1F80C4</color>
+    <color name ="Azul_boton_2">#2B3D92</color>
 </resources>
